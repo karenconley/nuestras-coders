@@ -1,0 +1,45 @@
+h1{
+	font-family: 'Sanchez', serif;
+	font-size: 30px;
+}
+
+hr{
+	margin-left: 0px;
+	margin-top: -10px;
+	/*para subir la línea*/
+	width: 130px;
+	/*largo línea divisoria*/
+	height: 5px;
+	color: black;
+	background: black;
+}
+
+div.coder {
+	/*Ancho máximo*/
+	width: 250px;
+	height: 250px;
+	float: left;
+	margin: 10px;
+	/*margin hace separación entre fotos*/
+}
+
+div.coder img{
+	width: 250px;
+	height: auto;
+	/*si la imagen no es cuadrada, con auto se redimensiona*/
+	max-height: 100%
+	/*con max-height determina un tamaño máximo de foto*/
+}
+
+div.coder p{
+	position: relative;
+	bottom: 50px;
+	color: white;
+	text-align: right;
+	font-family: 'Sanchez', serif;
+	/*link proporcionado por Google Fonts*/
+	font-size: 20px;
+	margin-right: 10px
+	/*para separar hacia la derecha el nombre con respecto al
+	margen derecho de la foto*/
+}
